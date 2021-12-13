@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+ul {
+    margin: 0;
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.topBar a {
+    text-decoration: none;
+    color: #e5e7eb;
+
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    background-color: #1F2937;   
+}
+
+.logo {
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
+.topBar {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 15%;
+    padding-right: 15%;
+    align-items: center;
+    padding-top: 8px;
+}
+
+.topBarLinks {
+    display: flex;
+    gap: 8px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 8vh;
+    padding-bottom: 12vh;
+    align-items: stretch;
+}
+
+.leftContent {
+    flex:1;
+    padding:8px;
+}
+
+.leftContent h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    margin: 0;
+}
+
+.leftContent p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+}
+
+.leftContent button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border-radius: 8px;
+    border: 0;
+    font-weight: 600;
+    margin-top: 16px;    
+}
+
+.rightContent {
+    flex: 1;
+    display: flex;
+    align-items: stretch;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    
+}
+
+.imgBox {
+    flex: 1;
+    display: flex;
+    background-image: url("https://www.bbsocal.com/wp-content/uploads/2018/05/image-placeholder.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.info {
+    flex: 1;
+    max-width: 800px;
+    display: flex;
+    place-items: center;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 15vh;
+    padding-top: 10vh;
+}
+
+.items {
+    display: flex;
+    flex: 1;
+    gap: 32px;
+  margin-top: 4vh;
+}
+
+.item {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+.square {
+    align-self: center;
+    width: 150px;
+    height: 150px;
+    border-radius: 24px;
+    border-color: #3882f6;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.squareText {
+    text-align: center;
+}
+
+.quote {
+    display: flex;
+    flex: 1;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    
+
+}
+
+.quotedText {
+    font-size: 36px;
+    font-weight:lighter;
+    font-style: italic;
+    max-width: 800px;
+    align-self: center;
+}
+
+.quotedText h3 {
+    margin: 0;
+    text-align: right;
+    font-size: 18px;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.contactBox {
+    flex: 1;
+    display: flex;
+    background-color: #3882f6;
+    align-items: center;
+    border-radius: 16px;
+    padding-left:8%;
+    padding-right: 8%;
+    max-width: 800px;  
+}
+
+.contactText {
+    flex:3;
+    color: #f9faf8;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    max-width:max-content;
+}
+
+.contactText h4 {
+    margin:0;
+    font-size: 18px;
+}
+
+.contactText p {
+    margin: 0;
+}
+
+
+.contactButton {
+    flex: 1; 
+    justify-content:right;
+    display: flex;
+}
+
+.contactButton1{
+    flex: 1;
+    border-color: white;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 8px;
+    background-color: #3882f6;
+    color: white;
+    padding-inline: 24px;
+    max-width: 100px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: 500;
+}
+
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: center;
+    
+}
+
+.footerText {
+    color:#f9faf8;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    
+}
